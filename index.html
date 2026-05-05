@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kathua Kitchen | Premium Dining in J&K</title>
+    <meta name="description"
+        content="Experience the finest juices, fast food, and local snacks at The Kathua Kitchen, the heart of Jammu & Kashmir's culinary scene.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="brand">Kathua<span>Kitchen</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i data-lucide="menu"></i>
+            </div>
+            <div class="nav-actions">
+                <a href="https://wa.me/919876543210?text=Hello%20Kathua%20Kitchen,%20I%20want%20to%20order%20food."
+                    class="btn btn-primary" target="_blank">Order Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1 class="reveal">Savor the Taste of <span class="accent">Kathua</span></h1>
+                <p class="reveal">Fresh juices, gourmet fast food, and authentic local snacks served with love in the
+                    heart of Jammu & Kashmir.</p>
+                <div class="hero-btns reveal">
+                    <a href="menu.html" class="btn btn-primary">Explore Menu</a>
+                    <a href="#about" class="btn btn-outline">Our Story</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <section id="categories" class="categories container">
+            <div class="section-header">
+                <h2>Our Categories</h2>
+                <p>Explore our wide variety of offerings</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-reveal>
+                    <div class="card-img">
+                        <img src="images/juices.png" alt="Fresh Juices">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fresh Juices</h3>
+                        <p>100% natural and refreshing</p>
+                    </div>
+                </div>
+                <div class="category-card" data-reveal>
+                    <div class="card-img">
+                        <img src="images/fast_food.png" alt="Fast Food">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fast Food</h3>
+                        <p>Gourmet burgers and crispy bites</p>
+                    </div>
+                </div>
+                <div class="category-card" data-reveal>
+                    <div class="card-img">
+                        <img src="images/ice_cream.png" alt="Ice Cream">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ice Cream</h3>
+                        <p>Cool, creamy, and delightful</p>
+                    </div>
+                </div>
+                <div class="category-card" data-reveal>
+                    <div class="card-img">
+                        <img src="images/snacks.png" alt="Snacks">
+                    </div>
+                    <div class="card-content">
+                        <h3>Savory Snacks</h3>
+                        <p>Local favorites and street food</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-highlights">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Popular Picks</h2>
+                    <p>What our guests love the most in Kathua</p>
+                </div>
+                <div class="menu-grid">
+                    <!-- Menu Item 1 -->
+                    <div class="menu-item" data-reveal>
+                        <div class="item-info">
+                            <h4>Special Kathua Cooler</h4>
+                            <p>A blend of local fruits and secret spices.</p>
+                            <span class="price">₹149</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item 2 -->
+                    <div class="menu-item" data-reveal>
+                        <div class="item-info">
+                            <h4>Basohli Burger</h4>
+                            <p>Double patty with extra cheese and spice.</p>
+                            <span class="price">₹199</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item 3 -->
+                    <div class="menu-item" data-reveal>
+                        <div class="item-info">
+                            <h4>Atal Setu Sundae</h4>
+                            <p>Premium dry fruit ice cream with honey.</p>
+                            <span class="price">₹249</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item 4 -->
+                    <div class="menu-item" data-reveal>
+                        <div class="item-info">
+                            <h4>Kaladi Platter</h4>
+                            <p>Authentic J&K cheese served with kulcha.</p>
+                            <span class="price">₹299</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section container">
+            <div class="about-grid">
+                <div class="about-text" data-reveal>
+                    <h2>The Heart of <span class="accent">Kathua</span></h2>
+                    <p>Located in the beautiful district of Kathua, Jammu & Kashmir, Kathua Kitchen is more than just a
+                        restaurant. It's a celebration of local flavors and modern culinary excellence.</p>
+                    <p>Whether you're looking for a quick snack, a refreshing juice after a long day, or a full meal
+                        with friends, we bring you the best quality ingredients and a warm, welcoming atmosphere.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="num">10+</span>
+                            <span class="label">Years of Taste</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="num">50+</span>
+                            <span class="label">Menu Items</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img" data-reveal>
+                    <img src="images/hero.png" alt="Kathua Kitchen Interior">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="brand">Kathua<span>Kitchen</span></span>
+                <p>Near Main Market, Kathua, Jammu & Kashmir</p>
+                <div class="social-links">
+                    <i data-lucide="instagram"></i>
+                    <i data-lucide="facebook"></i>
+                    <i data-lucide="twitter"></i>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i data-lucide="phone"></i> +91 98765 43210</p>
+                <p><i data-lucide="mail"></i> hello@kathuakitchen.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kathua Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="floating-contact">
+        <a href="https://wa.me/919876543210" class="fab whatsapp" target="_blank">
+            <i data-lucide="message-circle"></i>
+        </a>
+        <a href="tel:+919876543210" class="fab call">
+            <i data-lucide="phone"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
